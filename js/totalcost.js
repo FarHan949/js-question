@@ -10,6 +10,7 @@ function calculateTotal(products) {
   
     // Loop through each product in the array
     products.forEach(product => {
+        
       // Check if the product has both 'price' and 'quantity' properties
       if (product.price !== undefined && product.quantity !== undefined) {      
         totalCost += product.price * product.quantity;
